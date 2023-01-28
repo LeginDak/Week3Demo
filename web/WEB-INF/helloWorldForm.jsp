@@ -15,8 +15,8 @@
         <h1>Hello World!</h1>
         <h2>Hello</h2>
         <form method="post" action="sayHello">
-            First name: <input type="text" name="firstname"><br>
-            Last name: <input type="text" name="lastbane"><br>
+            First name: <input type="text" name="firstname" value="${firstname}"><br>
+            Last name: <input type="text" name="lastbane" value="${lastname}"><br>
             <input type="submit" value="Submit">
         </form>
     </body>
